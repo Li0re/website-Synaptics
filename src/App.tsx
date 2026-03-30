@@ -25,6 +25,7 @@ import MobileContact from "./pages/mobile/MobileContact";
 import MobilePricing from "./pages/mobile/MobilePricing";
 import MobileBlog from "./pages/mobile/MobileBlog";
 import { MobileNavbar } from "./pages/mobile/MobileNavbar";
+import { Analytics } from "@vercel/analytics/react";
 
 import { useEffect } from "react";
 
@@ -93,6 +94,7 @@ const App = () => (
         <BrowserRouter>
           <AppRoutes />
         </BrowserRouter>
+        <Analytics />
       </TooltipProvider>
     </LanguageProvider>
   </QueryClientProvider>
