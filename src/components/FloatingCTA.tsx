@@ -20,7 +20,7 @@ export function FloatingCTA() {
     if (dismissed || !visible) return null;
 
     return (
-        <div className="fixed bottom-0 left-0 right-0 sm:bottom-6 sm:right-6 sm:left-auto z-50 animate-slide-up">
+        <div className="fixed bottom-0 left-0 right-0 sm:bottom-6 sm:left-6 sm:right-auto z-50 animate-slide-up">
             <div className="relative rounded-none sm:rounded-2xl border-t sm:border border-white/[0.1] bg-black/90 sm:bg-black/80 backdrop-blur-xl p-4 sm:p-5 shadow-2xl shadow-black/50 sm:max-w-xs">
                 {/* Close button */}
                 <button
