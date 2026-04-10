@@ -17,9 +17,10 @@ export function Footer() {
       { label: t("footer.link.careers"), href: "#" },
     ],
     legal: [
+      { label: t("footer.link.legalNotice"), to: "/legal" },
       { label: t("footer.link.privacy"), to: "/privacy" },
-      { label: t("footer.link.terms"), to: "/terms" },
-      { label: t("footer.link.gdpr"), to: "/gdpr" },
+      { label: t("footer.link.cgv"), to: "/cgv" },
+      { label: t("footer.link.cookies"), to: "/cookies" },
     ],
   };
 

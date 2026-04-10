@@ -17,6 +17,10 @@ import NotFound from "./pages/NotFound";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfService";
 import GDPR from "./pages/GDPR";
+import LegalNotice from "./pages/LegalNotice";
+import TermsOfSale from "./pages/TermsOfSale";
+import CookiePolicy from "./pages/CookiePolicy";
+import { CookieBanner } from "@/components/layout/CookieBanner";
 
 // Mobile pages
 import MobileIndex from "./pages/mobile/MobileIndex";
@@ -79,8 +83,12 @@ function AppRoutes() {
         <Route path="/privacy" element={<PrivacyPolicy />} />
         <Route path="/terms" element={<TermsOfService />} />
         <Route path="/gdpr" element={<GDPR />} />
+        <Route path="/legal" element={<LegalNotice />} />
+        <Route path="/cgv" element={<TermsOfSale />} />
+        <Route path="/cookies" element={<CookiePolicy />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <CookieBanner />
     </>
   );
 }

@@ -317,9 +317,12 @@ const translations: Record<Lang, Record<string, string>> = {
         "footer.link.about": "About",
         "footer.link.contact": "Contact",
         "footer.link.careers": "Careers",
-        "footer.link.privacy": "Privacy Policy",
+        "footer.link.privacy": "Privacy Policy (GDPR)",
         "footer.link.terms": "Terms of Service",
         "footer.link.gdpr": "GDPR",
+        "footer.link.legalNotice": "Legal Notice",
+        "footer.link.cgv": "Terms of Sale",
+        "footer.link.cookies": "Cookie Policy",
 
         // Form validation
         "validation.nameRequired": "Name is required",
@@ -652,9 +655,12 @@ const translations: Record<Lang, Record<string, string>> = {
         "footer.link.about": "À propos",
         "footer.link.contact": "Contact",
         "footer.link.careers": "Carrières",
-        "footer.link.privacy": "Politique de confidentialité",
+        "footer.link.privacy": "Politique de confidentialité (RGPD)",
         "footer.link.terms": "Conditions d'utilisation",
         "footer.link.gdpr": "RGPD",
+        "footer.link.legalNotice": "Mentions légales",
+        "footer.link.cgv": "Conditions générales de vente",
+        "footer.link.cookies": "Politique de cookies",
 
         // Form validation
         "validation.nameRequired": "Le nom est requis",
